@@ -12,17 +12,20 @@ namespace WiredBrainCoffee.DatAccess
             yield return new CoffeeShop
             {
                 Location = "Frankfurt",
-                BeansInStockInKg = 107
+                BeansInStockInKg = 107,
+                PaperCupInStock = 350
             };
             yield return new CoffeeShop
             {
                 Location = "Freiburg",
-                BeansInStockInKg = 23
+                BeansInStockInKg = 23,
+                PaperCupInStock = 250
             };
             yield return new CoffeeShop
             {
                 Location = "Munich",
-                BeansInStockInKg = 56
+                BeansInStockInKg = 56,
+                PaperCupInStock = 427
             };
         }
        
